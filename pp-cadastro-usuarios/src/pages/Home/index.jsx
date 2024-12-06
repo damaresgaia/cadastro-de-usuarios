@@ -1,4 +1,5 @@
 import './style.css'
+import Trash from '../../assets/trash.svg'
 
 function Home() {
   
@@ -20,7 +21,7 @@ function Home() {
             <p>Email: </p>
           </div>
           <button>
-            <img />
+            <img src={Trash} />
           </button>
         </div>
       </div>
