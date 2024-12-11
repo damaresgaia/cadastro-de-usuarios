@@ -1,0 +1,19 @@
+meta {
+  name: Deletar
+  type: http
+  seq: 5
+}
+
+put {
+  url: http://localhost:3000/usuarios/675991546cdcf1626a529d1d
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Maria",
+    "age": "36",
+    "email": "mariaabacate@gmail.com"
+  }
+}
